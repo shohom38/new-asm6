@@ -11,7 +11,6 @@ ul, ol, li {
 .title-position {
     padding: 15px 16px 15px 18px;
     position: relative;
-    background: url('../img/title/top-bar.png') bottom 0 repeat-x;
 }
 
 #title {
@@ -25,12 +24,29 @@ ul, ol, li {
 
 .exit-btn {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 18px;
+    right: 16px;
+    cursor: pointer;
+}
+
+.cbox-top-line {
+    background: url('../img/title/top-bar.png') 0 top repeat-x;
+}
+
+.cbox-bottom-line {
+    background: url('../img/title/top-bar.png') 0 bottom repeat-x;
+}
+
+.conbox {
+    padding-top: 20px;
 }
 
 section {
     padding: 0 23px 20px 23px;
+}
+
+section:last-child {
+    margin-bottom: 11px;
 }
 
 #sub-title {
@@ -40,11 +56,52 @@ section {
 
 .list-style-dot>li {
     font-size: 11px;
-    list-style-image: url('../img/list/list-style-dot.png');
-    list-style-position: inherit;
+    background: url('../img/list/list-style-dot.png') 0 5px no-repeat;
+    padding-left: 9px;
+}
+
+.list-style-dot>li>ul {
+    padding-top: 6px;
 }
 
 .inside-list {
-    list-style-image: url('../img/list/list-style-slide.png');
-    list-style-position: inside;
+    background: url('../img/list/list-style-slide.png') left center no-repeat;
+    padding-left: 16px;
+}
+
+.inside-list:not(:last-child) {
+    padding-bottom: 6px;
+}
+
+.left-align {
+    padding: 0 0 8px 69px;
+}
+
+.btn-position {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    outline: none;
+    border: 0;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#orang-btn {
+    background: url('../img/btn1-left.png') left 0 no-repeat;
+    padding-left: 4px;
+}
+
+.btn-right {
+    background: url('../img/btn1-right.png') right 0 no-repeat;
+    padding-right: 4px;
+}
+
+.btn-mid {
+    background: url('../img/btn1-mid.png') center 0 repeat-x;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 6px 7px 7px 6px;
 }

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment6-gift-popup</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="popup-wrap popup-display">
+        <div class="title-position">
+            <h1 id="title"><img src="../img/title/title-2.png" alt="상품발송하기 도움말" class="title-img"></h1>
+            <img class="exit-btn" src="../img/exit-btn.png" alt="exit-button">
+        </div>
+        <div class="cbox-top-line">
+            <div class="cbox-bottom-line">
+                <div class="conbox">
+                    <section>
+                        <h6 id="sub-title">1. 발송 그룹 명</h6>
+                        <ul class="list-style-dot">
+                            <li> 
+                                1개의 캠패인 내에 다수 회차 발송이 있을 경우 발송 차수를 구분하기 위한 정보로 입력합니다.
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h6 id="sub-title">2. 회신번호 등록</h6>
+                            <ul class="list-style-dot">
+                                <li>고객 문의를 위한 회신 번호를 입력하며, 자주 사용하는 회신번호를 관리 할 수 있습니다.<br>
+                                    유의) 080으로 시작하는 번호는 통신사 blocking 정책으로 발송이 되지 않습니다. <br>
+                                    기타 030,050,070,1588,1599,1600  등의 국번에 대해 고객이 스팸 넘버로 등록한 경우에는 수신이 불가능 합니다.
+                                </li>
+                            </ul>
+                    </section>
+                    <section>
+                        <h6 id="sub-title">3. 수신자 번호 등록</h6>
+                        <ul class="list-style-dot">
+                            <li>직접 입력이 가능하며 엑셀 업로드 시 1회에 1천개 수신번호 등록이 가능합니다. <br>
+                                (자주 사용하시는 수신번호는 주소록에 등록해 사용하시면 이용이 편리합니다.)
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h6 id="sub-title">4. 발송유형 선택</h6>
+                        <ul class="list-style-dot">
+                            <li>기본형 : 1개의 이미지(뒷장) 꾸미기가 가능하며 기프티콘 상품 이미지(앞장)와 롤링되는 형태로 발송 됩니다. <br>
+                                고객이 WAP 접속 후 이미지를 다운받는 방식으로 핸드폰 대기화면으로 저장됩니다. <br>
+                                유의) 스마트폰의 경우는 WAP접속이 불가능하여 자동으로 MMS전환되어 발송됩니다.
+                            </li>
+                            <li>MMS형 : 1개의 이미지 꾸미기가 가능하며 MMS 형태로 발송 됩니다.</li>
+                        </ul class="list-style-dot">
+                    </section>
+                    <section>
+                        <h6 id="sub-title">5. SMS 문구 작성</h6>
+                        <ul class="list-style-dot">
+                            <li>고객이 문자 보관함에 받게 되는 일반 문자의 문구로 사용 됩니다.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h6 id="sub-title">6. 이미지 꾸미기</h6>
+                        <ul class="list-style-dot">
+                            <li>My꾸미기 이미지 메뉴에서 등록 후 승인된 이미지만 사용 가능 합니다.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h6 id="sub-title">7. 무선 페이지 꾸미기</h6>
+                        <ul class="list-style-dot">
+                            <li>무선사이트 접속이 가능한 Callback URL SMS 수신 후 접속하는 첫 페이지를 꾸밀 수 있습니다. <br>
+                                (사용 안함 선택 시 기프티콘이 배경화면에 즉시 다운로드 됩니다.)
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h6 id="sub-title">8. 발송 시간 선택</h6>
+                        <ul class="list-style-dot">
+                            <li>즉시 발송 : 결제 후 즉시 발송 됩니다.</li>
+                            <li>예약 발송 : 발송 시간을 설정 할 수 있습니다.(최대 15일)</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="btn-position">
+            <button id="orang-btn" class="btn">
+                <span class="btn btn-right">
+                    <span class="btn btn-mid">
+                        확인 
+                    </span>
+                </span>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
