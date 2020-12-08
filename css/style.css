@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+.title-position {
+    padding: 15px 16px 15px 18px;
+    position: relative;
+    background: url('../img/title/top-bar.png') bottom 0 repeat-x;
+}
+
+#title {
+    line-height: 16px;
+}
+
+.title-img {
+    background: url('../img/marker.png') left center no-repeat;
+    padding-left: 16px;
+}
+
+.exit-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+section {
+    padding: 0 23px 20px 23px;
+}
+
+#sub-title {
+    font-size-adjust: 12px;
+    padding-bottom: 9px;
+}
+
+.list-style-dot>li {
+    font-size: 11px;
+    list-style-image: url('../img/list/list-style-dot.png');
+    list-style-position: inherit;
+}
+
+.inside-list {
+    list-style-image: url('../img/list/list-style-slide.png');
+    list-style-position: inside;
+}
