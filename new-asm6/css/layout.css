@@ -18,3 +18,25 @@
     display: none;
 }
 
+.event-input {
+    width: 100%;
+    font-size: 12px;
+    position: absolute;
+    top: -9px;
+    left: -2px;
+}
+
+.event-position {
+    position: relative;
+}
+
+.byte-rmit {
+    position: absolute;
+    top: -7px;
+    right: 0;
+}
+
+.letter-spacing {
+    letter-spacing: 15px;
+}
+
