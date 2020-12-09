@@ -166,6 +166,12 @@ section:last-child {
 caption {
     display: none;
 }
+
+.table1 tr {
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+}
+
 .table1 th {
     font-size: 11px;
     line-height: 11px;
@@ -180,6 +186,32 @@ caption {
     padding-left: 15px;
 }
 
-.cancel-btn {
-    background: ;
+.btn-label-left {
+    padding: 4px 0;
+    cursor: pointer;
+    background: url('../img/btn-label.png') left 0 no-repeat;
+}
+
+.btn-label-right {
+    padding: 4px;
+    background: url('../img/right-label.png') right 0 no-repeat;
+}
+
+.btn-label-mid {
+    padding: 4px 10px;
+    background: url('../img/mid-label.png') center 0 repeat-x;
+}
+
+.upload-name {
+    width: 80%;
+}
+
+.exel-upload>li {
+    font-size: 12px;
+    line-height: 21px;
+    background: url('../img/list/list-style-dot.png') left 8px no-repeat;
+}
+
+.exel-upload>li:nth-child(2) {
+    background: none;
 }
