@@ -84,7 +84,7 @@ section:last-child {
 .btn {
     display: inline-block;
     outline: none;
-    border: 0;
+    border: none;
     font-size: 12px;
     cursor: pointer;
 }
@@ -93,9 +93,18 @@ section:last-child {
     background: url('../img/btn1-left.png') left 0 no-repeat;
     padding-left: 4px;
 }
+#cancel-btn {
+    background: url('../img/cancel-btn-left.png') left 0 no-repeat;
+    padding-left: 4px;
+}
 
 .btn-right {
     background: url('../img/btn1-right.png') right 0 no-repeat;
+    padding-right: 4px;
+}
+
+.cancel-btn-right {
+    background: url('../img/cancel-btn-right.png') right 0 no-repeat;
     padding-right: 4px;
 }
 
@@ -104,4 +113,73 @@ section:last-child {
     color: #ffffff;
     font-weight: bold;
     padding: 6px 7px 7px 6px;
+}
+
+.cancel-btn-mid {
+    background: url('../img/cancel-btn-mid.png') center 0 repeat-x;
+    font-weight: bold;
+    padding: 6px 7px 7px 6px;
+    color: #888888;
+}
+
+.list-style-dot>li:nth-child(3) {
+    background: none;
+}
+
+.list-style-dot>li:nth-child(4) {
+    background: none;
+}
+
+.list-pad {
+    padding-bottom: 12px;
+}
+
+.contents-p1 {
+    font-size: 11px;
+    color: #a9a9a9;
+    margin-bottom: 14px;
+}
+
+.contents-p1>a {
+    color: #ff5f28;
+    text-decoration: none;
+}
+
+.table1 {
+    width: 100%;
+    border-top: 1px solid #dedfde;
+    border-bottom: 1px solid #dedfde;
+    border-collapse: collapse;
+    padding: 11px 0;
+    font-size: 11px;
+    color: #646464;
+}
+
+.bp-table {
+    padding-bottom: 15px;
+}
+
+.nouse-left-border {
+    border-left: none;
+}
+
+caption {
+    display: none;
+}
+.table1 th {
+    font-size: 11px;
+    line-height: 11px;
+    border: 1px solid #efefef;
+    color: #969696;
+    background-color: #f6f6f6;
+    padding: 11px 0;
+}
+
+.table1 td {
+    padding: 8px 0;
+    padding-left: 15px;
+}
+
+.cancel-btn {
+    background: ;
 }
