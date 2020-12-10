@@ -58,3 +58,27 @@
 .cp-img {
     text-align: center;
 }
+
+.right-section {
+    padding-left: 216px;
+}
+
+.table3-th, .table3-td {
+    font-size: 12px;
+}
+
+.right-section-thead {
+    width: 87px;
+}
+
+.align-center {
+    width: 87px;
+}
+
+.coupon-img-absolute {
+    position: absolute;
+}
+
+.table3-tbody {
+    margin-bottom: 10px;
+}
