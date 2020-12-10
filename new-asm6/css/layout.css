@@ -22,7 +22,7 @@
     width: 100%;
     font-size: 12px;
     position: absolute;
-    top: -9px;
+    top: 2px;
     left: -2px;
 }
 
@@ -32,7 +32,7 @@
 
 .byte-rmit {
     position: absolute;
-    top: -7px;
+    top: 4px;
     right: 0;
 }
 
@@ -40,3 +40,21 @@
     letter-spacing: 15px;
 }
 
+.sss-event-input {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+}
+
+.sss-byte-rmit {
+    font-size: 12px;
+    position: absolute;
+    top: 2px;
+    right: 0;
+}
+
+.cp-img {
+    text-align: center;
+}

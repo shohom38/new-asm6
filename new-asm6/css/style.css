@@ -19,7 +19,7 @@ ul, ol, li {
 
 .title-img {
     background: url('../img/marker.png') left center no-repeat;
-    padding-left: 16px;
+    padding-left: 11px;
 }
 
 .exit-btn {
@@ -112,13 +112,13 @@ section:last-child {
     background: url('../img/btn1-mid.png') center 0 repeat-x;
     color: #ffffff;
     font-weight: bold;
-    padding: 6px 7px 7px 6px;
+    padding: 6px 13px 7px 14px;
 }
 
 .cancel-btn-mid {
     background: url('../img/cancel-btn-mid.png') center 0 repeat-x;
     font-weight: bold;
-    padding: 6px 7px 7px 6px;
+    padding: 6px 13px 7px 14px;
     color: #888888;
 }
 
@@ -222,7 +222,6 @@ caption {
 
 .th-color {
     color: #969696;
-    padding-bottom: 23px;
 }
 
 .dif-padding-td {
@@ -232,4 +231,9 @@ caption {
 
 .padding-diff {
     padding: 0 0 23px 15px;
+}
+
+.square-mark {
+    background: url('../img/list/marker-square.png') left center no-repeat;
+    padding-left: 10px;
 }
