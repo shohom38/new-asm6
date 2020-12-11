@@ -19,13 +19,13 @@ ul, ol, li {
 
 .title-img {
     background: url('../img/marker.png') left center no-repeat;
-    padding-left: 11px;
+    padding-left: 10px;
 }
 
 .exit-btn {
     position: absolute;
-    top: 18px;
-    right: 16px;
+    top: 19px;
+    right: 21px;
     cursor: pointer;
 }
 
@@ -41,27 +41,32 @@ ul, ol, li {
     padding-top: 20px;
 }
 
+.conbox2 {
+    padding-top: 12px;
+}
+
 section {
-    padding: 0 23px 20px 23px;
+    padding: 0 23px 14px 23px;
+}
+
+.exception-sect {
+    padding: 0 23px 11px 23px;
 }
 
 section:last-child {
-    margin-bottom: 11px;
+    margin-bottom: 10px;
+    padding-bottom: 17px;
 }
 
 #sub-title {
-    font-size-adjust: 12px;
-    padding-bottom: 9px;
+    font-size: 12px;
 }
 
 .list-style-dot>li {
     font-size: 11px;
     background: url('../img/list/list-style-dot.png') 0 5px no-repeat;
     padding-left: 9px;
-}
-
-.list-style-dot>li>ul {
-    padding-top: 6px;
+    line-height: 18px;
 }
 
 .inside-list {
@@ -69,16 +74,13 @@ section:last-child {
     padding-left: 16px;
 }
 
-.inside-list:not(:last-child) {
-    padding-bottom: 6px;
-}
-
 .left-align {
-    padding: 0 0 8px 69px;
+    padding: 0 0 3px 69px;
 }
 
 .btn-position {
     text-align: center;
+    padding-bottom: 13px;
 }
 
 .btn {
@@ -128,10 +130,11 @@ section:last-child {
 
 .list-style-dot>li:nth-child(4) {
     background: none;
+    padding-bottom: 9px;
 }
 
 .list-pad {
-    padding-bottom: 12px;
+    padding-bottom: 8px;
 }
 
 .contents-p1 {
@@ -218,6 +221,7 @@ caption {
 
 .thtd-fs {
     font-size: 12px;
+    white-space: nowrap;
 }
 
 .th-color {
@@ -225,15 +229,42 @@ caption {
 }
 
 .dif-padding-td {
-    padding: 3px 0 3px 15px;
-    white-space: nowrap;
+    padding: 3px 0 3px 7px;
+}
+
+.dif-padding-td2 {
+    padding: 2px 0 3px 7px;
 }
 
 .padding-diff {
-    padding: 0 0 23px 15px;
+    padding: 16px 0 16px 7px;
+}
+
+.padding-diff2 {
+    padding: 10px 0 10px 7px;
 }
 
 .square-mark {
     background: url('../img/list/marker-square.png') left center no-repeat;
     padding-left: 10px;
+}
+
+.fs12 {
+    font-size: 12px;
+}
+
+.top-border {
+    background: url('../img/border-bg/top-border.png') 0 top repeat-x;
+}
+
+.bottom-border {
+    background: url('../img/border-bg/top-border.png') 0 bottom repeat-x;
+}
+
+.left-border {
+    background: url('../img/border-bg/left-border.png') left 0 repeat-y;
+}
+
+.right-border {
+    background: url('../img/border-bg/left-border.png') right 0 repeat-y;
 }
