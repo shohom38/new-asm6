@@ -63,7 +63,7 @@
 
 #sub-title-cimg {
     line-height: 14px;
-    margin-bottom: 7px;
+    margin-bottom: 9px;
 }
 
 .right-section {
@@ -96,23 +96,24 @@
 }
 
 .table3-th {
-    height: 33px;
-    line-height: 33px;
+    height: 32px;
+    line-height: 32px;
     color: #969696;
 }
 
 .table3-td {
-    height: 43px;
-    line-height: 43px;
+    height: 42px;
+    line-height: 42px;
 }
 
 .align-center {
-    min-height: 43px;
+    min-height: 42px;
     text-align: center;
 }
 
 .coupon-img-absolute {
     position: absolute;
+    left: 21px;
 }
 
 .table3-thead {
@@ -127,20 +128,23 @@
     border-top: 1px solid #ead6ca;
 }
 
+.pl-22 {
+    padding-left: 22px;
+}
+
 input[type=radio] {
-    margin: 14px 0 0 0;
+    margin: 13px 0 0 0;
 }
 
 .th-hgt {
-    height: 33px;
+    height: 32px;
     width: 59px;
 }
 
 .scroll-tb {
     width: 329px;
-    height: 133px;
+    height: 130px;
     overflow: auto;
-    margin-bottom: 10px;
     border-bottom: 1px solid #ead6ca;
 }
 
@@ -168,3 +172,11 @@ input[type=radio] {
     width: 700px;
 }
 
+.table-contain {
+    height: 164px;
+    margin-bottom: 10px;
+}
+
+#relative-sect {
+    position: relative;
+}
