@@ -113,7 +113,14 @@
 
 .coupon-img-absolute {
     position: absolute;
-    left: 21px;
+    left: 22px;
+    top: 1px;
+}
+
+.coupon-img-absolute2 {
+    position: absolute;
+    top: 1px;
+    left: 23px;
 }
 
 .table3-thead {
@@ -177,6 +184,26 @@ input[type=radio] {
     margin-bottom: 10px;
 }
 
+.table-contain2 {
+    height: 164px;
+    margin-bottom: 19px;
+}
+
 #relative-sect {
     position: relative;
+}
+
+.text-area-style {
+    resize: none;
+    border-color: #e5e5e5;
+    background-color: #f8f8f8;
+}
+
+.text-lo {
+    height: 50px;
+    width: 328px;
+}
+
+.text-input-area {
+    margin-bottom: 16px;
 }
