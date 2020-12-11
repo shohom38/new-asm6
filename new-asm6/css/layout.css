@@ -1,17 +1,30 @@
+.popup-wrap {
+    margin: 0 auto;
+}
+
 .center-align {
     text-align: center;
 }
 
 .arrow-right {
     display: inline-block;
+    padding-right: 18px;
+    background: url('../img/arrow.png') right center no-repeat;
+}
+
+.arrow-left {
+    display: inline-block;
+    padding-left: 3px;
 }
 
 .dif-color {
-    font-size: 11px;
+    background-color: #eaeaea;
+    border: 1px solid #d5d5d5;
 }
 
 .white-color {
     font-size: 11px;
+    border: 1px solid #e5e5e5;
 }
 
 .upload-hidden {
@@ -19,7 +32,7 @@
 }
 
 .event-input {
-    width: 100%;
+    width: 499px;
     font-size: 12px;
     position: absolute;
     top: -10px;
@@ -33,8 +46,12 @@
 
 .byte-rmit {
     position: absolute;
-    top: 10px;
-    right: 5px;
+    top: -7px;
+    right: -26px;
+}
+
+.dof-pdt-td {
+    padding-top: 5px;
 }
 
 .letter-spacing {
@@ -48,6 +65,8 @@
     margin: 0 auto;
     top: 0;
     padding: 2px;
+    border: 1px solid #d8d8d8;
+    color: #646464;
 }
 
 .sss-byte-rmit {
@@ -55,6 +74,7 @@
     position: absolute;
     top: 3px;
     right: 0;
+    color: #646464;
 }
 
 .cp-img {
@@ -169,14 +189,47 @@ input[type=radio] {
 
 #dif-sect {
     padding-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 #dif-sect2 {
     padding-bottom: 21px;
 }
 
-.popup1 {
+.popup-242 {
+    width: 242px;
+}
+
+.popup-400 {
+    width: 400px;
+}
+
+.popup-404 {
+    width: 404px;
+}
+
+.popup-453 {
+    width: 453px;
+}
+
+.popup-700 {
     width: 700px;
+}
+
+.popup-419 {
+    width: 419px;
+}
+
+.popup-492 {
+    width: 492px;
+}
+
+.popup-591 {
+    width: 591px;
+}
+
+.popup-584 {
+    width: 584px;
 }
 
 .table-contain {
@@ -193,6 +246,24 @@ input[type=radio] {
     position: relative;
 }
 
+#relative-sect2 {
+    position: relative;
+    padding-bottom: 136px;
+}
+
+#sect-pdb-13 {
+    padding-bottom: 13px;
+}
+
+#sect-pdb-20 {
+    padding-bottom: 20px;
+}
+
+#sect-pdb-26 {
+    margin-bottom: 8px;
+    padding-bottom: 26px;
+}
+
 .text-area-style {
     resize: none;
     border-color: #e5e5e5;
@@ -206,4 +277,28 @@ input[type=radio] {
 
 .text-input-area {
     margin-bottom: 16px;
+}
+
+.fs10 {
+    font-size: 10px;
+    width: 153px;
+    padding: 4px 0 4px 8px;
+}
+
+.contents-p {
+    font-size: 12px;
+    padding-bottom: 11px;
+}
+
+.contents-p>li {
+    background: url('../img/list/list-style-dot.png') left center no-repeat;
+    padding-left: 6px;
+}
+
+.chn-num:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.refund-btn {
+    padding: 6px 4px 7px 3px;
 }
