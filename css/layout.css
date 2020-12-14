@@ -1,5 +1,6 @@
 .popup-wrap {
     margin: 0 auto;
+    position: relative;
 }
 
 .center-align {

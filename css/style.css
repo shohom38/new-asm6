@@ -11,7 +11,7 @@ ul, ol, li {
 }
 
 .title-position {
-    padding: 15px 16px 15px 18px;
+    padding: 18px 16px 15px 18px;
     position: relative;
 }
 
@@ -29,6 +29,8 @@ ul, ol, li {
     top: 19px;
     right: 21px;
     cursor: pointer;
+    border: none;
+    outline: none;
 }
 
 .cbox-top-line {
