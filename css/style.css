@@ -31,6 +31,7 @@ ul, ol, li {
     cursor: pointer;
     border: none;
     outline: none;
+    height: 13px;
 }
 
 .cbox-top-line {
@@ -220,7 +221,7 @@ caption {
 .btn-label-left {
     position: absolute;
     top: -1px;
-    right: 19px;
+    right: 0;
     padding-left: 4px;
     cursor: pointer;
     background: url('../img/btn-label.png') left center no-repeat;
@@ -240,7 +241,9 @@ caption {
 }
 
 .upload-name {
-    width: 310px;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 .exel-upload>li {
@@ -335,7 +338,7 @@ caption {
 
 .find-files {
     position: relative;
-    padding-bottom: 3px;
+    padding-bottom: 9px;
 }
 
 .find-files>input[type=text] {
@@ -344,13 +347,27 @@ caption {
 }
 
 .search {
-    width: 204px;
-    border: 1px solid #d8d8d8;
+    width: 100%;
+    height: 100%;
+    border: 0;
     padding: 1px;
-    height: 17px;
+}
+
+.search-indiv-wrap {
+    width: 63%;
+    height: 23px;
+    position: absolute;
+    bottom: 7px;
+    left: 78px;
+    border: 1px solid #d8d8d8;
 }
 
 .dot-box {
     background: url('../img/dot-line.png') 0 top repeat-x;
     padding-top: 11px;
+}
+
+.inpdiv-wrap {
+    width: 310px;
+    border: 1px solid #e5e5e5;
 }
