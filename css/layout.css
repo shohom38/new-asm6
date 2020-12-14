@@ -1,0 +1,315 @@
+.popup-wrap {
+    margin: 0 auto;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.arrow-position {
+    padding: 0 12px;
+    background: url('../img/arrow.png') center center no-repeat;
+}
+
+.arrow-right {
+    float: left;
+    border: 1px solid #d5d5d5;
+}
+
+.arrow-left {
+    float: right;
+    border: 1px solid #d5d5d5;
+}
+
+.arrow-position::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.border-none {
+    padding: 4px;
+    border: none;
+    font-size: 11px;
+    width: 100%;
+    height: 100%;
+}
+
+.dif-color {
+    background-color: #eaeaea;
+}
+
+.upload-hidden {
+    display: none;
+}
+
+.event-input {
+    width: 499px;
+    font-size: 12px;
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    padding: 1px;
+}
+
+.event-position {
+    position: relative;
+}
+
+.byte-rmit {
+    position: absolute;
+    top: -7px;
+    right: -26px;
+}
+
+.dof-pdt-td {
+    padding-top: 5px;
+}
+
+.letter-spacing {
+    letter-spacing: 15px;
+}
+
+.sss-event-input {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+    padding: 2px;
+    border: 1px solid #d8d8d8;
+    color: #646464;
+}
+
+.sss-byte-rmit {
+    font-size: 12px;
+    position: absolute;
+    top: 3px;
+    right: 0;
+    color: #646464;
+}
+
+.cp-img {
+    text-align: center;
+}
+
+#sub-title-cimg {
+    line-height: 14px;
+    margin-bottom: 9px;
+}
+
+.right-section {
+    padding-left: 216px;
+}
+
+.table3 {
+    border-collapse: collapse;
+    width: 329px;
+}
+
+.table3-th, .table3-td {
+    font-size: 12px;
+}
+
+.pb2 {
+    padding-bottom: 2px;
+}
+
+.pb4 {
+    padding-bottom: 4px;
+}
+
+.pb5 {
+    padding-bottom: 5px;
+}
+
+.pb6 {
+    padding-bottom: 6px;
+}
+
+.table3-th {
+    height: 32px;
+    line-height: 32px;
+    color: #969696;
+}
+
+.table3-td {
+    height: 42px;
+    line-height: 42px;
+}
+
+.align-center {
+    min-height: 42px;
+    text-align: center;
+}
+
+.coupon-img-absolute {
+    position: absolute;
+    left: 22px;
+    top: 1px;
+}
+
+.coupon-img-absolute2 {
+    position: absolute;
+    top: 1px;
+    left: 23px;
+}
+
+.table3-thead {
+    border-top: 1px solid #d8b19b;
+}
+
+.table3-tbody {
+    border-bottom: 1px solid #ead6ca;
+}
+
+.table3>tbody>tr {
+    border-top: 1px solid #ead6ca;
+}
+
+.pl-22 {
+    padding-left: 22px;
+}
+
+input[type=radio] {
+    margin: 13px 0 0 0;
+}
+
+.th-hgt {
+    height: 32px;
+    width: 59px;
+}
+
+.scroll-tb {
+    width: 329px;
+    height: 130px;
+    overflow: auto;
+    border-bottom: 1px solid #ead6ca;
+}
+
+.right-section-thead {
+    background: url('../img/divider.png') right center no-repeat;
+}
+
+.th-bg {
+    background-color: #f4e9e3;
+}
+
+.colored {
+    background-color: #fcf9f8;
+}
+
+#dif-sect {
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+}
+
+#dif-sect2 {
+    padding-bottom: 21px;
+}
+
+.popup-242 {
+    width: 242px;
+}
+
+.popup-400 {
+    width: 400px;
+}
+
+.popup-404 {
+    width: 404px;
+}
+
+.popup-453 {
+    width: 453px;
+}
+
+.popup-700 {
+    width: 700px;
+}
+
+.popup-419 {
+    width: 419px;
+}
+
+.popup-492 {
+    width: 492px;
+}
+
+.popup-591 {
+    width: 591px;
+}
+
+.popup-584 {
+    width: 584px;
+}
+
+.table-contain {
+    height: 164px;
+    margin-bottom: 10px;
+}
+
+.table-contain2 {
+    height: 164px;
+    margin-bottom: 19px;
+}
+
+#relative-sect {
+    position: relative;
+}
+
+#relative-sect2 {
+    position: relative;
+    padding-bottom: 136px;
+}
+
+#sect-pdb-13 {
+    padding-bottom: 13px;
+}
+
+#sect-pdb-20 {
+    padding-bottom: 20px;
+}
+
+#sect-pdb-26 {
+    margin-bottom: 8px;
+    padding-bottom: 26px;
+}
+
+.text-area-style {
+    resize: none;
+    border-color: #e5e5e5;
+    background-color: #f8f8f8;
+}
+
+.text-lo {
+    height: 50px;
+    width: 328px;
+}
+
+.text-input-area {
+    margin-bottom: 16px;
+}
+
+.fs10 {
+    font-size: 10px;
+    width: 153px;
+}
+
+.contents-p {
+    font-size: 12px;
+    padding-bottom: 11px;
+}
+
+.contents-p>li {
+    background: url('../img/list/list-style-dot.png') left center no-repeat;
+    padding-left: 6px;
+}
+
+.chn-num:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.refund-btn {
+    padding: 6px 4px 7px 3px;
+}
