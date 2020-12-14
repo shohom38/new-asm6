@@ -1,6 +1,6 @@
 .popup-wrap {
     margin: 0 auto;
-    position: relative;
+    position: relative-t;
 }
 
 .center-align {
@@ -132,12 +132,7 @@
     height: 32px;
     line-height: 32px;
     color: #969696;
-}
 
-.table3-td {
-    height: 42px;
-    line-height: 42px;
-}
 
 .align-center {
     min-height: 42px;
