@@ -132,7 +132,7 @@
     height: 32px;
     line-height: 32px;
     color: #969696;
-
+}
 
 .align-center {
     min-height: 42px;
@@ -208,10 +208,6 @@ input[type=radio] {
     width: 242px;
 }
 
-.popup-400 {
-    width: 400px;
-}
-
 .popup-404 {
     width: 404px;
 }
@@ -238,6 +234,10 @@ input[type=radio] {
 
 .popup-584 {
     width: 584px;
+}
+
+.popup-400 {
+    width: 400px;
 }
 
 .table-contain {
