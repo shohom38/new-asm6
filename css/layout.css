@@ -1,14 +1,21 @@
 .popup-wrap {
     margin: 0 auto;
-    position: relative-t;
+    position: relative;
+}
+
+.conbox-pd {
+    padding: 20px 23px 0 25px;
 }
 
 .center-align {
     text-align: center;
 }
 
+.none {
+    padding: 0;
+}
+
 .arrow-position {
-    padding: 0 12px;
     background: url('../img/arrow.png') center center no-repeat;
 }
 
@@ -29,7 +36,7 @@
 }
 
 .border-none {
-    padding: 4px;
+    padding-left: 7px;
     border: none;
     font-size: 11px;
     width: 100%;
@@ -45,48 +52,55 @@
 }
 
 .event-input {
-    width: 499px;
-    font-size: 12px;
-    position: absolute;
-    top: -10px;
-    left: 0px;
-    padding: 1px;
+    width: 100%;
+    height: 100%;
 }
 
 .event-position {
-    position: relative;
+    width: 507px;
+    font-size: 12px;
+    position: absolute;
+    top: 6px;
+    left: 7px;
+    padding: 1px;
 }
 
 .byte-rmit {
     position: absolute;
-    top: -7px;
-    right: -26px;
+    top: 4px;
+    right: 7px;
 }
 
 .dof-pdt-td {
-    padding-top: 5px;
+    top: 5px;
 }
 
 .letter-spacing {
     letter-spacing: 15px;
 }
 
-.sss-event-input {
-    font-size: 12px;
-    display: block;
+.input-div-wrap {
     width: 100%;
+    height: 21px;
+    font-size: 12px;
     margin: 0 auto;
     top: 0;
-    padding: 2px;
+    padding-left: 4px;
     border: 1px solid #d8d8d8;
     color: #646464;
+}
+
+.sss-event-input {
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 .sss-byte-rmit {
     font-size: 12px;
     position: absolute;
-    top: 3px;
-    right: 0;
+    top: 4px;
+    right: 9px;
     color: #646464;
 }
 
@@ -100,7 +114,7 @@
 }
 
 .right-section {
-    padding-left: 216px;
+    padding-left: 238px;
 }
 
 .table3 {
@@ -252,11 +266,12 @@ input[type=radio] {
 
 #relative-sect {
     position: relative;
+    padding-bottom: 71px;
 }
 
 #relative-sect2 {
     position: relative;
-    padding-bottom: 136px;
+    padding-bottom: 174px;
 }
 
 #sect-pdb-13 {
@@ -265,11 +280,17 @@ input[type=radio] {
 
 #sect-pdb-20 {
     padding-bottom: 20px;
+    margin-bottom: 8px;
 }
 
 #sect-pdb-26 {
     margin-bottom: 8px;
     padding-bottom: 26px;
+}
+
+
+#mab-8 {
+    margin-bottom: 8px;
 }
 
 .text-area-style {
@@ -289,7 +310,7 @@ input[type=radio] {
 
 .fs10 {
     font-size: 10px;
-    width: 153px;
+    width: 163px;
 }
 
 .contents-p {
@@ -306,6 +327,16 @@ input[type=radio] {
     margin-bottom: 5px;
 }
 
+.chn-num::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .refund-btn {
     padding: 6px 4px 7px 3px;
+}
+
+.bordering {
+    border-top: 8px solid transparent;
 }
