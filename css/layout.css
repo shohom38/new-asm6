@@ -126,6 +126,10 @@
     font-size: 12px;
 }
 
+.table3-td {
+    line-height: 43px;
+}
+
 .pb2 {
     padding-bottom: 2px;
 }
@@ -193,7 +197,8 @@ input[type=radio] {
 .scroll-tb {
     width: 329px;
     height: 130px;
-    overflow: auto;
+    overflow: scroll;
+    -ms-overflow-style: none;
     border-bottom: 1px solid #ead6ca;
 }
 

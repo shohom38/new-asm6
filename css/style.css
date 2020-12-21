@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'dotum', '돋움', 'APPLE SD Gothic NEO', sans-serif;
     color: #646464;
     box-sizing: border-box;
 }
@@ -141,6 +141,11 @@ section:last-child {
 .btn-position-align {
     position: absolute;
     right: 127px;
+    font-size: 0;
+}
+
+.btn-position-align button + button {
+    margin-left: 4px;
 }
 
 .btn {
@@ -174,7 +179,7 @@ section:last-child {
     background: url('../img/btn1-mid.png') center 0 repeat-x;
     color: #ffffff;
     font-weight: bold;
-    padding: 6px 13px 7px 14px;
+    padding: 6px 13px 5px 14px;
 }
 
 .cancel-btn-mid {
